@@ -9,14 +9,14 @@ devDependencies:
     specifier: ^2.2.42
     version: 2.2.48
   '@types/node':
-    specifier: ^7.0.43
-    version: 7.10.14
+    specifier: ^20.10.5
+    version: 20.11.9
   tslint:
     specifier: ^5.8.0
-    version: 5.20.1(typescript@2.9.2)
+    version: 5.20.1(typescript@5.3.3)
   typescript:
-    specifier: ^2.6.1
-    version: 2.9.2
+    specifier: ^5.3.3
+    version: 5.3.3
   vscode:
     specifier: ^1.1.6
     version: 1.1.37
@@ -54,8 +54,10 @@ packages:
     resolution: {integrity: sha512-nlK/iyETgafGli8Zh9zJVCTicvU3iajSkRwOh3Hhiva598CMqNJ4NcVCGMTGKpGpTYj/9R8RLzS9NAykSSCqGw==}
     dev: true
 
-  /@types/node@7.10.14:
-    resolution: {integrity: sha512-29GS75BE8asnTno3yB6ubOJOO0FboExEqNJy4bpz0GSmW/8wPTNL4h9h63c6s1uTrOopCmJYe/4yJLh5r92ZUA==}
+  /@types/node@20.11.9:
+    resolution: {integrity: sha512-CQXNuMoS/VcoAMISe5pm4JnEd1Br5jildbQEToEMQvutmv+EaQr90ry9raiudgpyDuqFiV9e4rnjSfLNq12M5w==}
+    dependencies:
+      undici-types: 5.26.5
     dev: true
 
   /agent-base@4.3.0:
@@ -463,7 +465,7 @@ packages:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
     dev: true
 
-  /tslint@5.20.1(typescript@2.9.2):
+  /tslint@5.20.1(typescript@5.3.3):
     resolution: {integrity: sha512-EcMxhzCFt8k+/UP5r8waCf/lzmeSyVlqxqMEDQE7rWYiQky8KpIBz1JAoYXfROHrPZ1XXd43q8yQnULOLiBRQg==}
     engines: {node: '>=4.8.0'}
     hasBin: true
@@ -482,23 +484,27 @@ packages:
       resolve: 1.22.8
       semver: 5.7.2
       tslib: 1.14.1
-      tsutils: 2.29.0(typescript@2.9.2)
-      typescript: 2.9.2
+      tsutils: 2.29.0(typescript@5.3.3)
+      typescript: 5.3.3
     dev: true
 
-  /tsutils@2.29.0(typescript@2.9.2):
+  /tsutils@2.29.0(typescript@5.3.3):
     resolution: {integrity: sha512-g5JVHCIJwzfISaXpXE1qvNalca5Jwob6FjI4AoPlqMusJ6ftFE7IkkFoMhVLRgK+4Kx3gkzb8UZK5t5yTTvEmA==}
     peerDependencies:
       typescript: '>=2.1.0 || >=2.1.0-dev || >=2.2.0-dev || >=2.3.0-dev || >=2.4.0-dev || >=2.5.0-dev || >=2.6.0-dev || >=2.7.0-dev || >=2.8.0-dev || >=2.9.0-dev || >= 3.0.0-dev || >= 3.1.0-dev'
     dependencies:
       tslib: 1.14.1
-      typescript: 2.9.2
+      typescript: 5.3.3
     dev: true
 
-  /typescript@2.9.2:
-    resolution: {integrity: sha512-Gr4p6nFNaoufRIY4NMdpQRNmgxVIGMs4Fcu/ujdYk3nAZqk7supzBE9idmvfZIlH/Cuj//dvi+019qEue9lV0w==}
-    engines: {node: '>=4.2.0'}
+  /typescript@5.3.3:
+    resolution: {integrity: sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==}
+    engines: {node: '>=14.17'}
     hasBin: true
+    dev: true
+
+  /undici-types@5.26.5:
+    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
     dev: true
 
   /vscode-test@0.4.3:

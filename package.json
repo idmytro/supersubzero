@@ -1,5 +1,5 @@
 {
-    "name": "supersub",
+    "name": "supersubzero",
     "displayName": "supersub",
     "description": "Convert a string to superscript or subscript if possible.",
     "version": "0.5.0",
@@ -37,10 +37,10 @@
         "test": "npm run compile && node ./node_modules/vscode/bin/test"
     },
     "devDependencies": {
-        "typescript": "^2.6.1",
+        "typescript": "^5.3.3",
         "vscode": "^1.1.6",
         "tslint": "^5.8.0",
-        "@types/node": "^7.0.43",
+        "@types/node": "^20.10.5",
         "@types/mocha": "^2.2.42"
     }
 }
