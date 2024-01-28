@@ -2,7 +2,7 @@
 
 A visual studio code (vscode) extension for convert normal characters to unicode suberscript/subscript characters, if possible.
 
-Fork of https://github.com/kindlychung/supersub
+Forked from https://github.com/kindlychung/supersub
 
 ## Features
 
@@ -17,4 +17,4 @@ This extension provides two commands:
 
 See the demo below:
 
-![](https://github.com/idmytro/supersub/raw/master/supersub_demo_compressed.gif)
+![](https://github.com/idmytro/supersubzero/raw/master/supersub_demo_compressed.gif)
