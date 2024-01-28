@@ -2,9 +2,9 @@
     "name": "supersub",
     "displayName": "supersub",
     "description": "Convert a string to superscript or subscript if possible.",
-    "version": "0.4.0",
-    "publisher": "quiever",
-    "repository": "https://github.com/kindlychung/supersub",
+    "version": "0.5.0",
+    "publisher": "idmytro",
+    "repository": "https://github.com/idmytro/supersub",
     "icon": "supersub.png",
     "engines": {
         "vscode": "^1.20.0"
