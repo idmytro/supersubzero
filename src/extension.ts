@@ -10,16 +10,16 @@ export function activate(context: ExtensionContext) {
 
     // Use the console to output diagnostic information (console.log) and errors (console.error).
     // This line of code will only be executed once when your extension is activated.
-    console.log('Congratulations, your extension "supersub" is now active!');
+    console.log('Congratulations, your extension "supersubzero" is now active!');
 
     // create a new word counter
-    let supersub = new SuperSub();
+    let supersubzero = new SuperSubZero();
 
-    let superCmd = commands.registerCommand('supersub.super', () => {
-        supersub.convert("super");
+    let superCmd = commands.registerCommand('supersubzero.super', () => {
+        supersubzero.convert("super");
     });
-    let subCmd = commands.registerCommand('supersub.sub', () => {
-        supersub.convert("sub");
+    let subCmd = commands.registerCommand('supersubzero.sub', () => {
+        supersubzero.convert("sub");
     });
 
     // Add to a list of disposables which are disposed when this extension is deactivated.
@@ -29,7 +29,7 @@ export function activate(context: ExtensionContext) {
 
 
 
-class SuperSub {
+class SuperSubZero {
 
     constructor() {
         this._superMap.set("L", "ᴸ");

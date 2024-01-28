@@ -1,11 +1,11 @@
 {
     "name": "supersubzero",
     "displayName": "supersubzero",
-    "description": "Convert a string to superscript or subscript if possible.",
-    "version": "0.5.0",
+    "description": "Convert a string to superscript or subscript if possible. Fixed 0!",
+    "version": "0.5.1",
     "publisher": "idmytro",
-    "repository": "https://github.com/idmytro/supersub",
-    "icon": "supersub.png",
+    "repository": "https://github.com/idmytro/supersubzero",
+    "icon": "supersubzero.png",
     "engines": {
         "vscode": "^1.20.0"
     },
@@ -13,18 +13,18 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:supersub.super",
-        "onCommand:supersub.sub"
+        "onCommand:supersubzero.super",
+        "onCommand:supersubzero.sub"
     ],
     "main": "./out/extension",
     "contributes": {
         "commands": [
             {
-                "command": "supersub.super",
+                "command": "supersubzero.super",
                 "title": "Convert to superscript"
             },
             {
-                "command": "supersub.sub",
+                "command": "supersubzero.sub",
                 "title": "Convert to subscript"
             }
         ]
