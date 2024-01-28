@@ -1,6 +1,6 @@
 # supersubzero 
 
-A visual studio code (vscode) extension for convert normal characters to unicode suberscript/subscript characters, if possible.
+A visual studio code (vscode) extension for convert normal characters to unicode suberscript/subscript characters, if possible. Fixed 0!
 
 Forked from https://github.com/kindlychung/supersub
 
